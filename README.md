@@ -56,7 +56,7 @@ This project involves the setup and management of a robust Windows Server enviro
 ## Current Focus
 - **Azure Integration**: Continuously learning and integrating Azure services into the existing infrastructure.
 - **Containerization**: Learning Docker and Kubernetes for container orchestration and management.
-- **CI/CD Pipelines**: Setting up continuous integration and continuous deployment pipelines using tools like Jenkins, GitLab CI, or Azure DevOps.
+- **CI/CD Pipelines**: Setting up continuous integration and continuous deployment pipelines using Azure DevOps.
 
 ## Technical Highlights
 - **PowerShell Scripting**: Automated AD tasks, showcasing proficiency in scripting and automation.
