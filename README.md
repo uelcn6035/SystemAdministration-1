@@ -1,7 +1,5 @@
 # Windows Server and Network Administration with Automation
 
----
-
 ## Project Overview
 
 This project involves the setup and management of a robust Windows Server environment, integrating various technologies and tools to ensure efficient and secure operations. The project includes on-premise and cloud-based solutions, demonstrating extensive skills in network and system administration.
