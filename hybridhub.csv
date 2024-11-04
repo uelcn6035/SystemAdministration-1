@@ -9,8 +9,8 @@ Product Support,Helper C1,testuserp1,LagosUsers,Service Support,Staff,123-456-78
 Product Support,Assistant C2,testuserp2,LagosUsers,Service Support,Staff,123-456-7897,Lagos,\\DC-01\all_userhomefolder_rw$\testuserc2,\\DC-01\profiles$\testuserc2,Customer Service Department User
 Logistics,Mover L1,testuserl1,TokyoUsers,Logistics,Staff,123-456-7898,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserl1,\\DC-01\profiles$\testuserl1,Logistics Department User
 Logistics,Shaker L2,testuserl2,TokyoUsers,Logistics,Staff,123-456-7899,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserl2,\\DC-01\profiles$\testuserl2,Logistics Department User
-Guest,Visitor G1,testuserg1,Guest,Reception,Visitor,123-456-7900,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserg1,\\DC-01\profiles$\testuserg1,Guest User
-Guest,Guest G2,testuserg2,Guest,Reception,Visitor,123-456-7901,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserg2,\\DC-01\profiles$\testuserg2,Guest User
+Guest,Visitor G1,testuserg1,Visitors,Reception,Visitor,123-456-7900,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserg1,\\DC-01\profiles$\testuserg1,Guest User
+Guest,Guest G2,testuserg2,Visitors,Reception,Visitor,123-456-7901,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserg2,\\DC-01\profiles$\testuserg2,Guest User
 Maintenance,Guy M1,testuserm1,TokyoUsers,Maintenance,Staff,123-456-7902,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserm1,\\DC-01\profiles$\testuserm1,Maintenance Department User
 Maintenance,Lady M2,testuserm2,TokyoUsers,Maintenance,Staff,123-456-7903,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserm2,\\DC-01\profiles$\testuserm2,Maintenance Department User
 Production,Worker P1,testuserpr1,TokyoUsers,Production,Staff,123-456-7904,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserp1,\\DC-01\profiles$\testuserp1,Production Department User
