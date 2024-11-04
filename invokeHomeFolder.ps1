@@ -1,16 +1,3 @@
-
-# Define the URL to your script on GitHub
-$scriptUrl = "https://raw.githubusercontent.com/uelcn6035/WindowsAdministration/main/invokeHomeFolder.ps1"
-
-# Define the path to save the downloaded script
-$localScriptPath = "C:\Temp\invokeHomeFolder.ps1"
-
-# Download the script from GitHub
-Invoke-WebRequest -Uri $scriptUrl -OutFile $localScriptPath
-
-# Import the downloaded script
-. $localScriptPath
-
 # Define the base path for the shared home folder
 $basePath = "\\DC-01\all_userhomefolder_rw$"
 
@@ -34,6 +21,24 @@ $usernames = @(
     "testuserpr2",
     "remoteadmin1"
 )
+
+# Function to create home folders
+function Create-HomeFolders {
+    param (
+        [string]$basePath,
+        [string[]]$usernames
+    )
+
+    foreach ($username in $usernames) {
+        $userFolderPath = Join-Path -Path $basePath -ChildPath $username
+        try {
+            New-Item -Path $userFolderPath -ItemType Directory -Force
+            Write-Host "Successfully created home folder for $username at $userFolderPath"
+        } catch {
+            Write-Host "Failed to create home folder for $username at $userFolderPath - $($_.Exception.Message)"
+        }
+    }
+}
 
 # Create home folders for the users
 Create-HomeFolders -basePath $basePath -usernames $usernames
