@@ -1,18 +1,18 @@
-FirstName,LastName,Username,Group,Department,Title,Manager,PhoneNumber,OfficeLocation,HomeDirectory,ProfilePath,Description
-Finance,Guru F1,testuserf1,LagosUsers,Finance,Staff,manager1,123-456-7890,Lagos,\\DC-01\all_userhomefolder_rw$\testuserf1,\\DC-01\profiles$\testuserf1,Finance Department User
-Finance,Expert F2,testuserf2,LagosUsers,Finance,Staff,manager1,123-456-7891,Lagos,\\DC-01\all_userhomefolder_rw$\testuserf2,\\DC-01\profiles$\testuserf2,Finance Department User
-Sales,Champion S1,testusers1,LagosUsers,Sales,Staff,manager2,123-456-7892,Lagos,\\DC-01\all_userhomefolder_rw$\testusers1,\\DC-01\profiles$\testusers1,Sales Department User
-Sales,Ace S2,testusers2,LagosUsers,Sales,Staff,manager2,123-456-7893,Lagos,\\DC-01\all_userhomefolder_rw$\testusers2,\\DC-01\profiles$\testusers2,Sales Department User
-IT Support,Techie I1,testuseri1,onPremAdmin,IT Services,Admin,manager3,123-456-7894,Lagos,\\DC-01\all_userhomefolder_rw$\testuseri1,\\DC-01\profiles$\testuseri1,IT Support Department User
-IT Support,Whiz I2,testuseri2,onPremAdmin,IT Services,Admin,manager3,123-456-7895,Tokyo,\\DC-01\all_userhomefolder_rw$\testuseri2,\\DC-01\profiles$\testuseri2,IT Support Department User
-Product Support,Helper C1,testuserp1,LagosUsers,Service Support,Staff,manager4,123-456-7896,Lagos,\\DC-01\all_userhomefolder_rw$\testuserc1,\\DC-01\profiles$\testuserc1,Customer Service Department User
-Product Support,Assistant C2,testuserp2,LagosUsers,Service Support,Staff,manager4,123-456-7897,Lagos,\\DC-01\all_userhomefolder_rw$\testuserc2,\\DC-01\profiles$\testuserc2,Customer Service Department User
-Logistics,Mover L1,testuserl1,TokyoUsers,Logistics,Staff,manager5,123-456-7898,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserl1,\\DC-01\profiles$\testuserl1,Logistics Department User
-Logistics,Shaker L2,testuserl2,TokyoUsers,Logistics,Staff,manager5,123-456-7899,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserl2,\\DC-01\profiles$\testuserl2,Logistics Department User
-Guest,Visitor G1,testuserg1,Guest,Reception,Visitor,Nil,123-456-7900,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserg1,\\DC-01\profiles$\testuserg1,Guest User
-Guest,Guest G2,testuserg2,Guest,Reception,Visitor,Nil,123-456-7901,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserg2,\\DC-01\profiles$\testuserg2,Guest User
-Maintenance,Guy M1,testuserm1,TokyoUsers,Maintenance,Staff,manager7,123-456-7902,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserm1,\\DC-01\profiles$\testuserm1,Maintenance Department User
-Maintenance,Lady M2,testuserm2,TokyoUsers,Maintenance,Staff,manager7,123-456-7903,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserm2,\\DC-01\profiles$\testuserm2,Maintenance Department User
-Production,Worker P1,testuserpr1,TokyoUsers,Production,Staff,manager8,123-456-7904,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserp1,\\DC-01\profiles$\testuserp1,Production Department User
-Production,Operator P2,testuserpr2,TokyoUsers,Production,Staff,manager8,123-456-7905,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserp2,\\DC-01\profiles$\testuserp2,Production Department User
-IT Support,Guru F1,remoteadmin1,RemoteAdmin,IT Services,Admin,manager1,123-456-7890,Flexible,\\DC-01\all_userhomefolder_rw$\remoteadmin1,\\DC-01\profiles$\remoteadmin1,Remote Administrator
+FirstName,LastName,Username,Group,Department,Title,PhoneNumber,OfficeLocation,HomeDirectory,ProfilePath,Description
+Finance,Guru F1,testuserf1,LagosUsers,Finance,Staff,123-456-7890,Lagos,\\DC-01\all_userhomefolder_rw$\testuserf1,\\DC-01\profiles$\testuserf1,Finance Department User
+Finance,Expert F2,testuserf2,LagosUsers,Finance,Staff,123-456-7891,Lagos,\\DC-01\all_userhomefolder_rw$\testuserf2,\\DC-01\profiles$\testuserf2,Finance Department User
+Sales,Champion S1,testusers1,LagosUsers,Sales,Staff,123-456-7892,Lagos,\\DC-01\all_userhomefolder_rw$\testusers1,\\DC-01\profiles$\testusers1,Sales Department User
+Sales,Ace S2,testusers2,LagosUsers,Sales,Staff,123-456-7893,Lagos,\\DC-01\all_userhomefolder_rw$\testusers2,\\DC-01\profiles$\testusers2,Sales Department User
+IT Support,Techie I1,testuseri1,onPremAdmin,IT Services,Admin,123-456-7894,Lagos,\\DC-01\all_userhomefolder_rw$\testuseri1,\\DC-01\profiles$\testuseri1,IT Support Department User
+IT Support,Whiz I2,testuseri2,onPremAdmin,IT Services,Admin,123-456-7895,Tokyo,\\DC-01\all_userhomefolder_rw$\testuseri2,\\DC-01\profiles$\testuseri2,IT Support Department User
+Product Support,Helper C1,testuserp1,LagosUsers,Service Support,Staff,123-456-7896,Lagos,\\DC-01\all_userhomefolder_rw$\testuserc1,\\DC-01\profiles$\testuserc1,Customer Service Department User
+Product Support,Assistant C2,testuserp2,LagosUsers,Service Support,Staff,123-456-7897,Lagos,\\DC-01\all_userhomefolder_rw$\testuserc2,\\DC-01\profiles$\testuserc2,Customer Service Department User
+Logistics,Mover L1,testuserl1,TokyoUsers,Logistics,Staff,123-456-7898,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserl1,\\DC-01\profiles$\testuserl1,Logistics Department User
+Logistics,Shaker L2,testuserl2,TokyoUsers,Logistics,Staff,123-456-7899,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserl2,\\DC-01\profiles$\testuserl2,Logistics Department User
+Guest,Visitor G1,testuserg1,Guest,Reception,Visitor,123-456-7900,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserg1,\\DC-01\profiles$\testuserg1,Guest User
+Guest,Guest G2,testuserg2,Guest,Reception,Visitor,123-456-7901,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserg2,\\DC-01\profiles$\testuserg2,Guest User
+Maintenance,Guy M1,testuserm1,TokyoUsers,Maintenance,Staff,123-456-7902,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserm1,\\DC-01\profiles$\testuserm1,Maintenance Department User
+Maintenance,Lady M2,testuserm2,TokyoUsers,Maintenance,Staff,123-456-7903,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserm2,\\DC-01\profiles$\testuserm2,Maintenance Department User
+Production,Worker P1,testuserpr1,TokyoUsers,Production,Staff,123-456-7904,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserp1,\\DC-01\profiles$\testuserp1,Production Department User
+Production,Operator P2,testuserpr2,TokyoUsers,Production,Staff,123-456-7905,Tokyo,\\DC-01\all_userhomefolder_rw$\testuserp2,\\DC-01\profiles$\testuserp2,Production Department User
+IT Support,Guru F1,remoteadmin1,RemoteAdmin,IT Services,Admin,123-456-7890,Flexible,\\DC-01\all_userhomefolder_rw$\remoteadmin1,\\DC-01\profiles$\remoteadmin1,Remote Administrator
