@@ -1,26 +1,11 @@
+# Define the path to the existing CSV file
+$csvPath = "\\DC-01\Users\Administrator.DC-1\Downloads\AutoUsers_hybridhub.csv"
+
+# Import the CSV file
+$usernames = Import-Csv -Path $csvPath | Select-Object -ExpandProperty Username
+
 # Define the base path for the shared home folder
 $basePath = "\\DC-01\all_userhomefolder_rw$"
-
-# List of usernames for which home folders need to be created
-$usernames = @(
-    "testuserf1",
-    "testuserf2",
-    "testusers1",
-    "testusers2",
-    "testuseri1",
-    "testuseri2",
-    "testuserp1",
-    "testuserp2",
-    "testuserl1",
-    "testuserl2",
-    "testuserg1",
-    "testuserg2",
-    "testuserm1",
-    "testuserm2",
-    "testuserpr1",
-    "testuserpr2",
-    "remoteadmin1"
-)
 
 # Function to create home folders
 function Create-HomeFolders {
