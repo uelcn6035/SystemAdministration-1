@@ -149,14 +149,18 @@ Write-Host "Downloading the home folder creation script from GitHub..."
 Invoke-WebRequest -Uri $scriptUrl -OutFile $localScriptPath
 Write-Host "Script downloaded to $localScriptPath"
 
-# Set the execution policy to Unrestricted
-Write-Host "Setting execution policy to Unrestricted..."
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process -Force
+# Set the execution policy to Bypass
+Write-Host "Setting execution policy to Bypass..."
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
 
 # Run the downloaded script directly
 Write-Host "Running the home folder creation script..."
-powershell -NoExit -ExecutionPolicy Unrestricted -File $localScriptPath
+& $localScriptPath
 Write-Host "Home folder creation script executed."
 
-# Pause to keep the PowerShell window open
-Read-Host "Press Enter to exit"
+# Fun exit message
+Write-Host ""
+Write-Host "🎉🎉🎉 Hooray! All tasks completed successfully. 🎉🎉🎉" -ForegroundColor Green
+Write-Host ""
+Read-Host "Press Enter to exit and celebrate!"
+
