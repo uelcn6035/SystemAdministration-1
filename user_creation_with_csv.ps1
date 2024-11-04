@@ -138,5 +138,25 @@ foreach ($user in $users) {
 Write-Progress -Activity "Processing Users" -Status "Complete" -Completed
 Write-Host "User processing complete."
 
-# Invoke the script to create home folders
-Start-Process powershell -ArgumentList "-File \\DC-01\Users\Administrator.DC-1\Downloads\CreateHomeFolders.ps1"
+# Define the URL to your script on GitHub
+$scriptUrl = "https://raw.githubusercontent.com/uelcn6035/WindowsAdministration/main/invokeHomeFolder.ps1"
+
+# Define the path to save the downloaded script
+$localScriptPath = "\\DC-01\Users\Administrator.DC-1\Downloads\invokeHomeFolder.ps1"
+
+# Download the script from GitHub
+Write-Host "Downloading the home folder creation script from GitHub..."
+Invoke-WebRequest -Uri $scriptUrl -OutFile $localScriptPath
+Write-Host "Script downloaded to $localScriptPath"
+
+# Set the execution policy to Unrestricted
+Write-Host "Setting execution policy to Unrestricted..."
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process -Force
+
+# Run the downloaded script directly
+Write-Host "Running the home folder creation script..."
+powershell -NoExit -ExecutionPolicy Unrestricted -File $localScriptPath
+Write-Host "Home folder creation script executed."
+
+# Pause to keep the PowerShell window open
+Read-Host "Press Enter to exit"
