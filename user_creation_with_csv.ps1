@@ -1,5 +1,5 @@
 # Define the path to store the downloaded CSV
-$csvPath = "\\DC-01\Users\Administrator.DC-1\Downloads\AutoUsers_hybridhub.csv"
+$csvPath = "\Users\Administrator\Downloads\AutoUsers_hybridhub.csv"
 
 # Download the CSV file from GitHub
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/uelcn6035/WindowsAdministration/main/AutoUsers_hybridhub.csv" -OutFile $csvPath
