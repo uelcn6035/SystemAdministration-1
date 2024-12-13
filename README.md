@@ -78,6 +78,6 @@ This project involves the setup and management of a robust Windows Server enviro
 ## Video Demonstration
 For a detailed demonstration of my skills and the project setup, please watch the video playlist here.
 
-https://www.youtube.com/watch?v=2B4VF5nqhFs
+https://www.youtube.com/playlist?list=PLe-oTj2F_EnfoljrqXfTc3GbT5vtHFdWq
 
 ---
