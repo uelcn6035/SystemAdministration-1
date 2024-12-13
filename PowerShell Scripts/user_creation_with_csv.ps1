@@ -139,7 +139,7 @@ Write-Progress -Activity "Processing Users" -Status "Complete" -Completed
 Write-Host "User processing complete."
 
 # Define the URL to your script on GitHub
-$scriptUrl = "https://raw.githubusercontent.com/uelcn6035/WindowsAdministration/main/invokeHomeFolder.ps1"
+$scriptUrl = "https://github.com/uelcn6035/SystemAdministration-1/blob/main/PowerShell%20Scripts/invokeHomeFolder.ps1"
 
 # Define the path to save the downloaded script
 $localScriptPath = "\\DC-01\Users\Administrator.DC-1\Downloads\invokeHomeFolder.ps1"
